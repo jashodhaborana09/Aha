@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class MollywoodmoodService {
-  private baseUrl = "assets/mollywoodmood.json";
+  private baseUrl = "http://localhost:8081/api/v1/Mollywoodmood_data";
   constructor(private http: HttpClient) { }
   onsubmit(): Observable<Mollywoodmood[]> {
     return this.http.get<Mollywoodmood[]>(this.baseUrl);

@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class TamiltimelessclassicService {
 
-  private baseurl = "http://localhost:8081/api/v1/tamiltimelessclassic_data";
+  private baseurl = "http://localhost:8081/api/v1/Tamiltimelessclassic_data";
     constructor(private http: HttpClient) { }
     onsubmit():Observable<Tamiltimelessclassic[]>{
     

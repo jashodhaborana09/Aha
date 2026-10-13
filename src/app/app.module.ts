@@ -13,6 +13,8 @@ import { WatchinteluguandtamilComponent } from './watchinteluguandtamil/watchint
 import { TamiltimelessclassicComponent } from './tamiltimelessclassic/tamiltimelessclassic.component';
 import { InthespotlightComponent } from './inthespotlight/inthespotlight.component';
 import { HandpickedforyouComponent } from './handpickedforyou/handpickedforyou.component';
+import { Watchin4kComponent } from './watchin4k/watchin4k.component';
+import { TelugutimelessclassicsComponent } from './telugutimelessclassics/telugutimelessclassics.component';
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import { HandpickedforyouComponent } from './handpickedforyou/handpickedforyou.c
     TamiltimelessclassicComponent,
     InthespotlightComponent,
     HandpickedforyouComponent,
+    Watchin4kComponent,
+    TelugutimelessclassicsComponent,
     
   ],
   imports: [

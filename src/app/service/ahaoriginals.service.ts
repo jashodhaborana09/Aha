@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ahaoriginalsservice {
-  private baseUrl = "assets/ahaoriginals.json";
+  private baseUrl = "http://localhost:8081/api/v1/ahaoriginals_data" ;
     constructor(private http:HttpClient) { }
     onsubmit(): Observable<Ahaoriginals[]> {
       return this.http.get<Ahaoriginals[]>(this.baseUrl);

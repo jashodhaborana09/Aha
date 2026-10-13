@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class CelebratingloveService {
-  private baseUrl = "assets/celebratinglove.json";
+  private baseUrl =  "http://localhost:8081/api/v1/celebratinglove_data";
   constructor(private http: HttpClient) { }
   onsubmit(): Observable<Celebratinglove[]> {
     return this.http.get<Celebratinglove[]>(this.baseUrl);

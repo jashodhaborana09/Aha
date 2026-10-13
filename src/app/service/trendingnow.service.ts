@@ -8,7 +8,7 @@ import { Trendingnow } from '../models/trendingnow';
   providedIn: 'root'
 })
 export class TrendingnowService {
-  private baseurl = "assets/Trendingnow.json";
+  private baseurl =  "http://localhost:8081/api/v1/Trendingnow_data";
     constructor(private http: HttpClient) { }
     onsubmit():Observable<Trendingnow[]>{
     
